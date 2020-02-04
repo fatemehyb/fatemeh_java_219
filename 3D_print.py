@@ -1,6 +1,6 @@
 
 #This program performs surface and volume rendering for a dataset.
-import vtk
+#import vtk
 import SimpleITK as sitk
 import itk
 from vtk.util.numpy_support import vtk_to_numpy, numpy_to_vtk
@@ -155,9 +155,7 @@ def dualSurfaceRendering_two(image1,image2,stl_address):
 
 
 
-    # sphere_view = vtk.vtkSphereSource()
-    # # sphere_view.SetOrigin([-48.96,-48.96,-48.42])
-    # # sphere_view.SetSpacing(0.18,0.18,0.18)
+        # # sphere_view.SetSpacing(0.18,0.18,0.18)
     # sphere_view.SetCenter(int(-72*0.18),int(441*0.18),int(439*0.18))
     # # sphere_view.SetCenter(int(250*0.18),int(150*0.18),int(600*0.18))
     # sphere_view.SetRadius(1.0)
