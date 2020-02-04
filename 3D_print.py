@@ -1,6 +1,6 @@
 
 #This program performs surface and volume rendering for a dataset.
-#import vtk
+###########import vtk
 import SimpleITK as sitk
 import itk
 from vtk.util.numpy_support import vtk_to_numpy, numpy_to_vtk
